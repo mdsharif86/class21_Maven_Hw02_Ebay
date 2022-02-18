@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Testng">
+    <classes>
+      <class name="testCase.verifyCellPhonesCount"/>
+      <class name="testCase.VerifyEbayCameraTotalByCategory"/>
+      <class name="testCase.VerifyEbaySearchBoxExist"/>
+      <class name="testCase.VerifyEbayAllCategoryOptionEnabled"/>
+      <class name="testCase.VerifyEbayPetSuppliesCount"/>
+    </classes>
+  </test> <!-- Testng -->
+</suite> <!-- Suite -->
